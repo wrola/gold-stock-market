@@ -2,9 +2,12 @@
   "name": "gold-stock-market",
   "version": "1.0.0",
   "description": "server base on typescript ",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "jest "
+    "test:unit": "jest .\\/test\\/unit\\/.*\\.test\\.js --detectOpenHandles",
+    "test:watch": "",
+    "dev:start": "tsc server.ts",
+    "build": ""
   },
   "repository": {
     "type": "git",
@@ -19,5 +22,26 @@
   "bugs": {
     "url": "https://github.com/wrola/gold-stock-market/issues"
   },
-  "homepage": "https://github.com/wrola/gold-stock-market#readme"
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "homepage": "https://github.com/wrola/gold-stock-market#readme",
+  "dependencies": {
+    "@types/node": "^13.9.2",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "bottlejs": "^1.7.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jest": "^25.1.0",
+    "prettier": "^1.19.1",
+    "typescript": "^3.8.3"
+  },
+  "prettier": {
+    "trailingComma": "none",
+    "tabWidth": 4,
+    "singleQuote": true,
+    "semi": true,
+    "bracketSpacing": true
+  }
 }
