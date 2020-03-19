@@ -1,0 +1,23 @@
+{
+  "name": "gold-stock-market",
+  "version": "1.0.0",
+  "description": "server base on typescript ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wrola/gold-stock-market.git"
+  },
+  "keywords": [
+    "typescript",
+    "express"
+  ],
+  "author": "Wojciech Rola",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wrola/gold-stock-market/issues"
+  },
+  "homepage": "https://github.com/wrola/gold-stock-market#readme"
+}
